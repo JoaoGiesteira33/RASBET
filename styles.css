@@ -1,0 +1,31 @@
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_logo,
+.image_logo{
+    color: gold;
+}
+.header{
+    display: flex;
+    color: white;
+    background-color: green;
+}
+.main{
+    display: flex;
+}
+.jogos{
+    display: flex;
+    flex: 4;
+    flex-direction: column;
+    height: 300px;
+}
+.boletim{
+    flex: 1;
+    height: 300px;
+}
+
+div{
+    border: 1px solid black;
+}
